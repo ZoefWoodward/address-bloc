@@ -46,7 +46,7 @@ module.exports = class MenuController {
     }
 
     getDate(){
-      date.now();
+      let now = new Date();
       console.log(date.format(now, 'YYYY/MM/DD HH:mm:ss'));
       this.main();
     }
