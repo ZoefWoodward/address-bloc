@@ -59,3 +59,4 @@ module.exports = class MenuController {
         process.exit();
       }
     }
+    
