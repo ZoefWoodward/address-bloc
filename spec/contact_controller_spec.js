@@ -17,6 +17,7 @@ describe("ContactController", () => {
            this.book.addContact("Alice", "001-101-1010").then((contact) => {
                expect(contant.name).toBe("Alice");
                expect(contact.phone).toBe("001-101-1010");
+               expect(contact.email).toBe("wheresalice@gmail.com");
                done();
            })
            .catch ((err) => {
